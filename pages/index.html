@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="../design/style1.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
@@ -133,7 +133,14 @@
 
 
       </div> -->
-    <div class="head-container"></div>
+    
+      <div class="head-container">
+      <img src="../assets/images/logo.png" alt="" />
+        <div>
+          <span class="emp-text">EMPLOYEE</span><br />
+          <span class="emp-text emp-payroll">PAYROLL</span>
+        </div>
+      </div>
     <div class="body-container">
       <div class="form-container">
         <div class="form-head">
@@ -149,7 +156,7 @@
                 <input type="text" style="width: 80%; height: 2em" />
               </div>
             </div>
-            <div id="profileImage-conatiner" class="input">
+            <div id="profileImage-container" class="input">
               <div class="label">
                 <label for="">Profile Image</label>
               </div>
@@ -164,13 +171,68 @@
                 <img src="" alt="img" />
               </div>
             </div>
-            <div id="gender-conrtainer" class="input"></div>
-            <div id="department-container" class="input"></div>
-            <div class="input" id="salary-container"></div>
-            <div class="input" id="startDate-container"></div>
-            <div class="input" id="notes-container"></div>
+            <div id="gender-container" class="input">
+              <div class="label">
+                <label for="">Gender</label>
+              </div>
+              <div class="input">
+                <input type="radio" value="Male"/>Male
+                <input type="radio" value="Male"/>Female
+              </div>
+            </div>
+            <div id="department-container" class="input">
+              <div class="label">
+                <label for="">Department</label>
+              </div>
+              <div class="input">
+                <input type="checkbox"/>HR
+                <input type="checkbox"/>Sales
+                <input type="checkbox"/>Finance
+                <input type="checkbox"/>Engineer
+                <input type="checkbox"/>Others
+              </div>
+            </div>
+            <div id="salary-container" class="input">
+              <div class="label">
+                <label for="">Salary</label>
+              </div>
+              <div class="input">
+                <select class="sal">
+                  <option>Select Salary</option>
+                </select>                        
+              </div>
+            </div>
+            <div  id="startDate-container" class="input">
+              <div class="label">
+                <label for="">Start Date</label>
+              </div>
+              <div class="input">
+                <input type="date" />
+
+              </div>
+            </div>
+            <div id="notes-container" class="input" >
+              <div class="label">
+                <label for="">Notes</label>
+              </div>
+              <div class="input">
+                <textarea rows="4" cols="50"></textarea>
+              </div>
+            </div>
+
           </div>
-          <div class="formHandle-container"></div>
+          <br>
+
+          <div class="formHandle-container">
+            <div class="button">
+              <div class="inp">
+                <input type="button" class="inp" value="cancel"/>
+                <input type="button" class="inp" value="submit"/>
+                <input type="button" class="inp" value="reset"/>
+              </div>
+            </div>
+            
+          </div>
         </form>
       </div>
     </div>
