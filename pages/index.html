@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <script src= "https://code.jquery.com/jquery-3.6.0.min.js"></script> 
+    
   </head>
   <body style="width: 98vw; height: 100vh; border: 1px solid black">
     
@@ -41,13 +42,13 @@
               <label>Profile Image</label>
             </div>
             <div class="input">
-              <input type="radio" id="prof1"/>
+              <input type="radio" name="prof" value="../assets/profile-images/Ellipse -1.png"/>
               <img src="../assets/profile-images/Ellipse -1.png" alt="img1" />
-              <input type="radio" id="prof2"/>
+              <input type="radio" name="prof" value="../assets/profile-images/Ellipse -2.png"/>
               <img src="../assets/profile-images/Ellipse -2.png" alt="img2" />
-              <input type="radio" id="prof3"/>
+              <input type="radio" name="prof" value="../assets/profile-images/Ellipse -3.png"/>
               <img src="../assets/profile-images/Ellipse -3.png" alt="img3" />
-              <input type="radio" id="prof4"/>
+              <input type="radio" name="prof" value="../assets/profile-images/Ellipse -4.png"/>
               <img src="../assets/profile-images/Ellipse -4.png" alt="img4" />
             </div>
           </div>
@@ -57,7 +58,7 @@
             </div>
             <div class="input" id="gender">
               <input type="radio" id="Male" value="Male" />Male
-              <input type="radio"  value="Female" />Female
+              <input type="radio" id="Female" value="Female" />Female
             </div>
           </div>
           <div id="department-container" class="input">
@@ -107,9 +108,9 @@
         </div>
         <br />
         <div class="button-container">
-          <button>Cancel</button>
+          <button type="button" id="cB" >Cancel</button>
           <div class="right-buttons">
-            <button onclick="f1()" id="s1" style="margin-right: 15px">
+            <button type="button" id="s1" style="margin-right: 15px">
               Submit
             </button>
             <input type="reset" value="Reset">

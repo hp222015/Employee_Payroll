@@ -1,7 +1,13 @@
+document.getElementById('cB').addEventListener('click', function() {
+  // Redirect to dashboard.html
+  window.location.href = './dashboard.html';
+});
 
-function f1(){
+document.getElementById('s1').addEventListener('click',
+function (){
+  window.location.href='./dashboard.html';
   let name =$('#Name').val();
-  // let sprof=$("input[name='prof']:checked");
+  let sprof=$("input[name='prof']:checked").val();
   let gender=$('#Male').is(':checked');
   let dept1=$('#dept1').is(':checked');
   let dept2=$('#dept2').is(':checked');
@@ -21,8 +27,6 @@ function f1(){
   dept.push("Engineer");
   if(dept5)
   dept.push("Others");
-
- let deptstr=JSON.stringify(dept);
  
  let salary=$('#sal').val();
  let start_date=$('#startDate').val();
@@ -30,9 +34,9 @@ function f1(){
 
   const employee ={
     Name: name,
-    // Profile: sprof,
+    Profile: sprof,
     Gender: (gender ? "male" : "female"),
-    Department:deptstr,
+    Department:dept,
     Salary: salary,
     Start_Date: start_date,
     Notes: notes
@@ -51,4 +55,8 @@ function f1(){
         console.error("Error:", textStatus, errorThrown);
     }
   });
-}
+  
+  
+  
+ 
+});

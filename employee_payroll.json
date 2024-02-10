@@ -1,22 +1,16 @@
 {
   "data": [
     {
-      "id": "2db7",
-      "Name": "Harshit",
+      "id": "005d",
+      "Name": "harshit",
+      "Profile": "../assets/profile-images/Ellipse -2.png",
       "Gender": "male",
-      "Department": "[\"Sales\"]",
-      "Salary": "20000",
+      "Department": [
+        "HR"
+      ],
+      "Salary": "50000",
       "Start_Date": "2024-02-23",
-      "Notes": "sdf"
-    },
-    {
-      "id": "6298",
-      "Name": "adsjlkf",
-      "Gender": "female",
-      "Department": "[\"Sales\"]",
-      "Salary": "20000",
-      "Start_Date": "",
-      "Notes": ""
+      "Notes": "hi i am a developer"
     }
   ]
 }
