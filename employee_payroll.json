@@ -1,21 +1,48 @@
 {
   "data": [
     {
-      "id": "005d",
-      "Name": "harshit",
-      "Profile": "../assets/profile-images/Ellipse -2.png",
-      "Gender": "male",
+      "id": "4034",
+      "Name": "",
+      "Gender": "female",
       "Department": [
-        "HR"
+        "HR",
+        "Sales"
       ],
-      "Salary": "50000",
-      "Start_Date": "2024-02-23",
-      "Notes": "hi i am a developer"
+      "Salary": "Select Salary",
+      "Start_Date": "",
+      "Notes": ""
     },
     {
-      "id": "d2cf",
-      "Name": "sfdfs",
-      "Profile": "../assets/profile-images/Ellipse -3.png",
+      "id": "482b",
+      "Name": "harshit",
+      "Profile": "../assets/profile-images/prof2.png",
+      "Gender": "female",
+      "Department": [],
+      "Salary": "Select Salary",
+      "Start_Date": "",
+      "Notes": ""
+    },
+    {
+      "id": "2542",
+      "Name": "deepti",
+      "Gender": "female",
+      "Department": [],
+      "Salary": "Select Salary",
+      "Start_Date": "",
+      "Notes": ""
+    },
+    {
+      "id": "12e1",
+      "Name": "dsf",
+      "Gender": "female",
+      "Department": [],
+      "Salary": "Select Salary",
+      "Start_Date": "",
+      "Notes": ""
+    },
+    {
+      "id": "0399",
+      "Name": "ddff",
       "Gender": "female",
       "Department": [],
       "Salary": "Select Salary",

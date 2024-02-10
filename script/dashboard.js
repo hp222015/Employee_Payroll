@@ -9,8 +9,8 @@ $(document).ready(function(){
                   + employee.Gender + "</td><td>" + employee.Department 
                   + "</td><td>" + employee.Salary + "</td><td>" + 
                   employee.Start_Date +
-                   "</td><td> <img class='update-icon' src='../assets/icons/create-black-18dp.svg' alt='Update' data-id='"
-                    + employee.id + "'><img class='delete-icon' src='../assets/icons/delete-black-18dp.svg' alt='Delete' data-id='" 
+                   "</td><td> <img class='update-icon' src='../assets/icons/update.svg' alt='Update' data-id='"
+                    + employee.id + "'><img class='delete-icon' src='../assets/icons/delete.svg' alt='Delete' data-id='" 
                     + employee.id + "'></td></tr>";
                   $('#employee-table').append(newRow);
               });
@@ -20,12 +20,13 @@ $(document).ready(function(){
           }
       });
   
-      // Event listener for update icon
+          // Event listener for update icon
       $('#employee-table').on('click', '.update-icon', function() {
           var employeeId = $(this).data('id');
           window.location.href = 'index.html?id=' + employeeId;
       });
-  
+
+   
       // Event listener for delete icon
       $('#employee-table').on('click', '.delete-icon', function() {
           var employeeId = $(this).data('id');
