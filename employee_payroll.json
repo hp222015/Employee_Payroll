@@ -11,6 +11,16 @@
       "Salary": "50000",
       "Start_Date": "2024-02-23",
       "Notes": "hi i am a developer"
+    },
+    {
+      "id": "d2cf",
+      "Name": "sfdfs",
+      "Profile": "../assets/profile-images/Ellipse -3.png",
+      "Gender": "female",
+      "Department": [],
+      "Salary": "Select Salary",
+      "Start_Date": "",
+      "Notes": ""
     }
   ]
 }
