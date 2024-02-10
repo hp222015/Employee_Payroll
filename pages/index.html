@@ -5,236 +5,120 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <script src= "https://code.jquery.com/jquery-3.6.0.min.js"></script> 
   </head>
   <body style="width: 98vw; height: 100vh; border: 1px solid black">
-    <!-- <nav>
-            <div class="top">Employee<br>Payroll</div>
-      </nav>
-      <div class="final">            
-            <h1>Employee Payroll Form</h1>
-            <div class="inner-container">
-                  <div class="labels">
-                        <label>Name</label>
-                        <label>Profile Image</label>
-                        <label>Gender</label>
-                        <label>Department</label>
-                        <label>Salary</label>
-                        <label>Start Date</label>
-                        <label>Notes</label>
-                        
-
-
-                  </div>
-                  
-                  <div class="fields">
-                        <input type="text">
-                        <div class="Profile Image">
-                              <input type="radio"><img src="avatar">
-                              <input type="radio"><img src="javatar">
-                              <input type="radio"><img src="javatar">
-                              <input type="radio"><img src="javatar">
-
-                        </div>
-                  
-                        <div class="Gender">
-                              <input type="radio">Male
-                              <input type="radio">Female
-                              
-                        </div>
-
-                        <div class="Department">
-                              <input type="checkbox">HR
-                              <input type="checkbox">Sales
-                              <input type="checkbox">Finance
-                              <input type="checkbox">Engineer
-                              <input type="checkbox">Others
-                              
-                              
-                        </div>
-                        
-                        <div class="Salary">
-                              <select class="sal">
-                                    <option>Select Salary</option>
-                                    <option>50000</option>
-                                    <option>55000</option>
-                                    <opiton>60000</opiton>
-                                    <option>65000</option>
-                              </select>
-                        </div>
-
-                        <div class="StartDate">
-                              <select class="start">
-                                    <option>Day</option>
-                                    <option>1</option>
-                                    <option>2</option>
-                                    <opiton>3</opiton>
-                                    <option>4</option>
-                                    <option>5</option>
-                                    <option>6</option>
-                                    <opiton>7</opiton>
-                                    <option>8</option>
-                                    <option>9</option>
-                                    <option>10</option>
-                                    <opiton>11</opiton>
-                                    <option>12</option>
-                                    <option>13</option>
-                                    <option>14</option>
-                                    <opiton>15</opiton>
-                                    <option>16</option>
-                                    <option>17</option>
-                                    <option>18</option>
-                                    <opiton>19</opiton>
-                                    <option>20</option>
-                                    <option>21</option>
-                                    <option>22</option>
-                                    <opiton>23</opiton>
-                                    <option>24</option>
-                                    <option>25</option>
-                                    <option>26</option>
-                                    <opiton>27</opiton>
-                                    <option>28</option>
-                                    <option>29</option>
-                                    <option>30</option>
-                                    <opiton>31</opiton>
-                              </select>
-                              <select class="start">
-                                    <option>Month</option>
-                                    <option>January</option>
-                                    <option>February</option>
-                                    <opiton>March</opiton>
-                                    <option>April</option>
-                                    <option>May</option>
-                                    <option>June</option>
-                                    <opiton>July</opiton>
-                                    <option>August</option>
-                                    <option>September</option>
-                                    <option>October</option>
-                                    <opiton>November</opiton>
-                                    <option>December</option>
-                              </select>
-                              <select class="start">
-                                    <option>year</option>
-                                    <option>2024</option>
-                              </select>
-
-                        </div>
-
-                        <input class="input" type="text">
-                  
-
-                  </div>
-            </div>
-            <br>
-            <input type="submit" class="canbut" value="cancel"/>       
-            <label class="indi"></label>           
-            <input type="submit" class="canbut" />
-            <input type="reset" class="canbut"/>
-
-
-
-      </div> -->
     
-      <div class="head-container">
+    <div class="head-container">
       <img src="../assets/images/logo.png" alt="" />
-        <div>
-          <span class="emp-text">EMPLOYEE</span><br />
-          <span class="emp-text emp-payroll">PAYROLL</span>
-        </div>
+      <div>
+        <span class="emp-text">EMPLOYEE</span><br />
+        <span class="emp-text emp-payroll">PAYROLL</span>
       </div>
+    </div>
     <div class="body-container">
       <div class="form-container">
         <div class="form-head">
           <span class="formHead-title">Employee Payroll Form</span>
         </div>
-        <form action="" class="form">
-          <div class="form-body">
-            <div id="name-container" class="input">
-              <div class="label">
-                <label for="Name">Name</label>
-              </div>
-              <div class="nameInput">
-                <input type="text" style="width: 80%; height: 2em" />
-              </div>
+        <!-- ------------form starts here----------  -->
+        <form class="form" id="form1">
+        <div class="form-body">
+          <div id="name-container" class="input">
+            <div class="label">
+              <label>Name</label>
             </div>
-            <div id="profileImage-container" class="input">
-              <div class="label">
-                <label for="">Profile Image</label>
-              </div>
-              <div class="input">
-                <input type="radio" />
-                <img src="" alt="img" />
-                <input type="radio" />
-                <img src="" alt="img" />
-                <input type="radio" />
-                <img src="" alt="img" />
-                <input type="radio" />
-                <img src="" alt="img" />
-              </div>
+            <div class="nameInput">
+              <input
+                type="text"
+                id="Name"
+                style="width: 80%; height: 2em"
+              />
             </div>
-            <div id="gender-container" class="input">
-              <div class="label">
-                <label for="">Gender</label>
-              </div>
-              <div class="input">
-                <input type="radio" value="Male"/>Male
-                <input type="radio" value="Male"/>Female
-              </div>
-            </div>
-            <div id="department-container" class="input">
-              <div class="label">
-                <label for="">Department</label>
-              </div>
-              <div class="input">
-                <input type="checkbox"/>HR
-                <input type="checkbox"/>Sales
-                <input type="checkbox"/>Finance
-                <input type="checkbox"/>Engineer
-                <input type="checkbox"/>Others
-              </div>
-            </div>
-            <div id="salary-container" class="input">
-              <div class="label">
-                <label for="">Salary</label>
-              </div>
-              <div class="input">
-                <select class="sal">
-                  <option>Select Salary</option>
-                </select>                        
-              </div>
-            </div>
-            <div  id="startDate-container" class="input">
-              <div class="label">
-                <label for="">Start Date</label>
-              </div>
-              <div class="input">
-                <input type="date" />
-
-              </div>
-            </div>
-            <div id="notes-container" class="input" >
-              <div class="label">
-                <label for="">Notes</label>
-              </div>
-              <div class="input">
-                <textarea rows="4" cols="50"></textarea>
-              </div>
-            </div>
-
           </div>
-          <br>
-
-          <div class="formHandle-container">
-            <div class="button">
-              <div class="inp">
-                <input type="button" class="inp" value="cancel"/>
-                <input type="button" class="inp" value="submit"/>
-                <input type="button" class="inp" value="reset"/>
-              </div>
+          <div id="profileImage-container" class="input">
+            <div class="label">
+              <label>Profile Image</label>
             </div>
+            <div class="input">
+              <input type="radio" id="prof1"/>
+              <img src="../assets/profile-images/Ellipse -1.png" alt="img1" />
+              <input type="radio" id="prof2"/>
+              <img src="../assets/profile-images/Ellipse -2.png" alt="img2" />
+              <input type="radio" id="prof3"/>
+              <img src="../assets/profile-images/Ellipse -3.png" alt="img3" />
+              <input type="radio" id="prof4"/>
+              <img src="../assets/profile-images/Ellipse -4.png" alt="img4" />
+            </div>
+          </div>
+          <div id="gender-container" class="input">
+            <div class="label">
+              <label>Gender</label>
+            </div>
+            <div class="input" id="gender">
+              <input type="radio" id="Male" value="Male" />Male
+              <input type="radio"  value="Female" />Female
+            </div>
+          </div>
+          <div id="department-container" class="input">
+            <div class="label">
+              <label>Department</label>
+            </div>
+            <div class="input">
+              <input type="checkbox" id="dept1"/>HR 
+              <input type="checkbox" id="dept2"/>Sales
+              <input type="checkbox" id="dept3"/>Finance 
+              <input type="checkbox" id="dept4"/>Engineer
+              <input type="checkbox" id="dept5"/>Others
+            </div>
+          </div>
+          <div id="salary-container" class="input">
+            <div class="label">
+              <label>Salary</label>
+            </div>
+            <div class="input">
+              <select class="salary" id="sal">
+                <option>Select Salary</option>
+                <option>10000</option>
+                <option>20000</option>
+                <option>30000</option>
+                <option>40000</option>
+                <option>50000</option>
+              </select>
+            </div>
+          </div>
+          <div id="startDate-container" class="input">
+            <div class="label">
+              <label>Start Date</label>
+            </div>
+            <div class="input">
+              <input type="date" id="startDate"/>
+            </div>
+          </div>
+          <div id="notes-container" class="input">
+            <div class="label">
+              <label>Notes</label>
+            </div>
+            <div class="input">
+              <!-- <textarea  id= "notes" rows="4" cols="50"></textarea> -->
+              <input type="text" id="notes">
+            </div>
+          </div>
+        </div>
+        <br />
+        <div class="button-container">
+          <button>Cancel</button>
+          <div class="right-buttons">
+            <button onclick="f1()" id="s1" style="margin-right: 15px">
+              Submit
+            </button>
+            <input type="reset" value="Reset">
             
           </div>
+        </div>
         </form>
+        <script src="../script/index.js"></script>
       </div>
-    </div>
+    </div>   
   </body>
 </html>
