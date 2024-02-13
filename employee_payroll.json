@@ -1,49 +1,34 @@
 {
   "data": [
     {
-      "id": "4034",
-      "Name": "",
-      "Gender": "female",
-      "Department": [
-        "HR",
-        "Sales"
-      ],
-      "Salary": "Select Salary",
-      "Start_Date": "",
-      "Notes": ""
-    },
-    {
-      "id": "482b",
-      "Name": "harshit",
+      "Name": "LALITH",
       "Profile": "../assets/profile-images/prof2.png",
-      "Gender": "female",
-      "Department": [],
-      "Salary": "Select Salary",
-      "Start_Date": "",
-      "Notes": ""
+      "Gender": "Male",
+      "Department": [
+        "Finance",
+        "Engineer"
+      ],
+      "Salary": "20000",
+      "Start_Date": "2024-02-12",
+      "Notes": "sdasa",
+      "id": "34f7"
     },
     {
-      "id": "2542",
-      "Name": "deepti",
-      "Gender": "female",
-      "Department": [],
-      "Salary": "Select Salary",
+      "Name": "harshit",
+      "Gender": "Female",
+      "Department": [
+        "Finance",
+        "Engineer"
+      ],
+      "Salary": "10000",
       "Start_Date": "",
-      "Notes": ""
+      "Notes": "",
+      "id": "ed41"
     },
     {
-      "id": "12e1",
-      "Name": "dsf",
-      "Gender": "female",
-      "Department": [],
-      "Salary": "Select Salary",
-      "Start_Date": "",
-      "Notes": ""
-    },
-    {
-      "id": "0399",
-      "Name": "ddff",
-      "Gender": "female",
+      "id": "f402",
+      "Name": "hanif",
+      "Gender": "Female",
       "Department": [],
       "Salary": "Select Salary",
       "Start_Date": "",
