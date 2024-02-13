@@ -22,10 +22,9 @@ html body {
       border: 0px solid green;
       width: 80%;
   }
-  
   .logo-content-img {
-      border: solid 0px #42515F;
-  }
+    border: solid 0px #42515F;
+}
   
   .emp-text {
       font: normal normal bold 20px/25px Montserrat;

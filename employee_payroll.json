@@ -14,18 +14,6 @@
       "id": "34f7"
     },
     {
-      "Name": "harshit",
-      "Gender": "Female",
-      "Department": [
-        "Finance",
-        "Engineer"
-      ],
-      "Salary": "10000",
-      "Start_Date": "",
-      "Notes": "",
-      "id": "ed41"
-    },
-    {
       "id": "f402",
       "Name": "hanif",
       "Gender": "Female",
